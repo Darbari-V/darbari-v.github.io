@@ -19,16 +19,16 @@ const featured = [
     link: 'https://darbari-v.github.io/crm-migration-case-study/',
     source: 'https://github.com/Darbari-V/crm-migration-case-study',
   },
-  {
+    {
     title: 'Customer 360 — CRM Transformation & Customer Data Integration',
     subtitle: 'Northstar Services · Independent BA case study · started October 2026',
     status: 'In progress',
     summary:
-      'An independent fictional IT Business Analysis case study examining fragmented customer information, inconsistent lead follow-ups and reporting challenges. Published artefacts cover business problem analysis, stakeholder investigation planning, preliminary As-Is/To-Be process analysis, gap analysis and a scoped requirements catalogue with business rules, user stories, proposed acceptance criteria and traceability. Customer-data analysis, CRM configuration and validation are planned for subsequent phases.',
+      'An independent fictional IT Business Analysis case study addressing fragmented customer information, inconsistent enquiry follow-ups and reporting challenges. Five published artefacts cover business problem analysis, stakeholder investigation planning, As-Is/To-Be process analysis, gap analysis, requirements engineering, logical customer data modelling, SQL investigations, data-quality assessment and reconciliation using synthetic records. CRM configuration, integrations and validation remain future work.',
     stages: [
       { name: 'Discovery & process foundation', state: 'done' },
       { name: 'Requirements engineering', state: 'done' },
-      { name: 'Customer data & SQL', state: 'planned' },
+      { name: 'Customer data & SQL', state: 'done' },
       { name: 'CRM build & validation', state: 'planned' },
     ],
     tools: [
@@ -41,6 +41,12 @@ const featured = [
       'Business Rules',
       'User Stories & Acceptance Criteria',
       'Traceability & Change Impact Analysis',
+      'Logical Data Modelling',
+      'Data Dictionary',
+      'SQL (SQLite)',
+      'Data Quality Analysis',
+      'Data Reconciliation',
+      'Proposed Validation Rules',
     ],
     link: 'https://darbari-v.github.io/northstar-customer-360/',
     source: 'https://github.com/Darbari-V/northstar-customer-360',
