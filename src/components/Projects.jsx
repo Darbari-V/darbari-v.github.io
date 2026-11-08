@@ -11,11 +11,11 @@ const featured = [
     summary:
       'MavenTech, a fictional company that sells computer hardware to large businesses, is moving its sales pipeline data (a public-domain Maven Analytics dataset) to Salesforce. As the business analyst, I take it from project brief to user acceptance testing, adding each piece as I finish it. Built while I study for the BCS Foundation Certificate in Business Analysis.',
     stages: [
-      { name: 'Discovery', state: 'current' },
-      { name: 'Specification', state: 'planned' },
+      { name: 'Discovery', state: 'done' },
+      { name: 'Specification', state: 'current' },
       { name: 'Build and test', state: 'planned' },
     ],
-    tools: ['PESTLE', 'SWOT', 'Stakeholder Wheel', 'Power/Interest Grid', 'RACI Chart', 'CARDI Log', 'Swimlane Diagram', 'As-Is Process Analysis', 'To-Be Process Design', 'POPIT Gap Analysis', 'Feasibility Assessment', 'Payback and NPV'],
+    tools: ['PESTLE', 'SWOT', 'Stakeholder Wheel', 'Power/Interest Grid', 'RACI Chart', 'CARDI Log', 'Swimlane Diagram', 'As-Is Process Analysis', 'To-Be Process Design', 'POPIT Gap Analysis', 'Feasibility Assessment', 'Payback and NPV', 'Document Analysis', 'Requirements Catalogue', 'MoSCoW Prioritisation', 'User Stories & Acceptance Criteria'],
     link: 'https://darbari-v.github.io/crm-migration-case-study/',
     source: 'https://github.com/Darbari-V/crm-migration-case-study',
   },
