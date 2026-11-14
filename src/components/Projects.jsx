@@ -23,13 +23,15 @@ const featured = [
     title: 'Customer 360 — CRM Transformation & Customer Data Integration',
     subtitle: 'Northstar Services · Independent BA case study · started October 2026',
     status: 'In progress',
-    summary:
-      'An independent fictional IT Business Analysis case study addressing fragmented customer information, inconsistent enquiry follow-ups and reporting challenges. Five published artefacts cover business problem analysis, stakeholder investigation planning, As-Is/To-Be process analysis, gap analysis, requirements engineering, logical customer data modelling, SQL investigations, data-quality assessment and reconciliation using synthetic records. CRM configuration, integrations and validation remain future work.',
+    
+summary:
+  'An independent fictional IT Business Analysis case study addressing fragmented customer information, inconsistent enquiry follow-ups and reporting challenges. Six published artefacts cover business problem analysis, stakeholder investigation planning, As-Is/To-Be process analysis, requirements engineering, logical customer data modelling, SQL investigations, data-quality assessment, reconciliation and proposed CRM solution design. Salesforce configuration, integrations and functional testing remain future work.',
     stages: [
       { name: 'Discovery & process foundation', state: 'done' },
-      { name: 'Requirements engineering', state: 'done' },
-      { name: 'Customer data & SQL', state: 'done' },
-      { name: 'CRM build & validation', state: 'planned' },
+      { name: 'Requirements engineering', state: 'done' },      
+{ name: 'Customer data & SQL', state: 'done' },
+{ name: 'CRM solution design', state: 'done' },
+{ name: 'CRM build & validation', state: 'planned' },
     ],
     tools: [
       'Business Problem Analysis',
@@ -46,7 +48,14 @@ const featured = [
       'SQL (SQLite)',
       'Data Quality Analysis',
       'Data Reconciliation',
-      'Proposed Validation Rules',
+      'Proposed Validation Rules', 
+'CRM Solution Design',
+'Salesforce Object Mapping (Proposed)',
+'CRM Relationship Design',
+'CRM Field Specification',
+'Validation Logic Design',
+'MVP Scope Definition',
+'Test Scenario Design',
     ],
     link: 'https://darbari-v.github.io/northstar-customer-360/',
     source: 'https://github.com/Darbari-V/northstar-customer-360',
