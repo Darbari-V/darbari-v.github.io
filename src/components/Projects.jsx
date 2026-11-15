@@ -25,7 +25,7 @@ const featured = [
     status: 'In progress',
     
 summary:
-  'An independent fictional IT Business Analysis case study addressing fragmented customer information, inconsistent enquiry follow-ups and reporting challenges. Six published artefacts cover business problem analysis, stakeholder investigation planning, As-Is/To-Be process analysis, requirements engineering, logical customer data modelling, SQL investigations, data-quality assessment, reconciliation and proposed CRM solution design. Salesforce configuration, integrations and functional testing remain future work.',
+  'An independent fictional IT Business Analysis case study addressing fragmented customer information, inconsistent enquiry follow-ups and reporting challenges. Six published artefacts cover business problem analysis, stakeholder investigation planning, As-Is/To-Be process analysis, gap analysis, requirements engineering, logical customer data modelling, SQL investigations, data-quality assessment and reconciliation using synthetic records, alongside proposed CRM solution design. Salesforce configuration, integrations and functional testing remain future work.',
     stages: [
       { name: 'Discovery & process foundation', state: 'done' },
       { name: 'Requirements engineering', state: 'done' },      
