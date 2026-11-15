@@ -578,6 +578,15 @@ html {
 
   .nav-links.open {
     display: flex;
+    box-sizing: border-box;
+    max-height: calc(100vh - var(--header-h) - 16px);
+    max-height: calc(100dvh - var(--header-h) - 16px);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+
+  .nav-links.open a {
+    flex-shrink: 0;
   }
 
   .nav-links a {
@@ -812,3 +821,4 @@ html {
   align-self: flex-start;
   margin-top: auto;
 }
+
