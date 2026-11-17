@@ -25,13 +25,14 @@ const featured = [
     status: 'In progress',
     
 summary:
-  'An independent fictional IT Business Analysis case study addressing fragmented customer information, inconsistent enquiry follow-ups and reporting challenges. Six published artefacts cover business problem analysis, stakeholder investigation planning, As-Is/To-Be process analysis, gap analysis, requirements engineering, logical customer data modelling, SQL investigations, data-quality assessment and reconciliation using synthetic records, alongside proposed CRM solution design. Salesforce configuration, integrations and functional testing remain future work.',
+  'An independent fictional IT Business Analysis case study addressing fragmented customer information, inconsistent enquiry follow-ups and reporting challenges. Seven published artefacts cover business problem analysis, stakeholder investigation planning, As-Is/To-Be process analysis, gap analysis, requirements engineering, logical customer data modelling, SQL investigations, data-quality assessment and reconciliation using synthetic records, proposed CRM solution design, and a scoped Salesforce MVP with three list views, a status-transition validation rule and development checks supported by six reviewed screenshots. Multi-user access testing, integrations, business-user acceptance testing and production deployment remain future work.',
     stages: [
       { name: 'Discovery & process foundation', state: 'done' },
       { name: 'Requirements engineering', state: 'done' },      
 { name: 'Customer data & SQL', state: 'done' },
 { name: 'CRM solution design', state: 'done' },
-{ name: 'CRM build & validation', state: 'planned' },
+{ name: 'Salesforce MVP & development checks', state: 'done' },
+{ name: 'Multi-user testing & integrations', state: 'planned' },
     ],
     tools: [
       'Business Problem Analysis',
@@ -48,7 +49,7 @@ summary:
       'SQL (SQLite)',
       'Data Quality Analysis',
       'Data Reconciliation',
-      'Proposed Validation Rules', 
+      'Validation Rule Design & Configuration',
 'CRM Solution Design',
 'Salesforce Object Mapping (Proposed)',
 'CRM Relationship Design',
@@ -56,6 +57,10 @@ summary:
 'Validation Logic Design',
 'MVP Scope Definition',
 'Test Scenario Design',
+'Salesforce Developer Edition',
+'Custom Objects & User Lookups',
+'List Views & Formula Fields',
+'Functional Verification & Regression Checks',
     ],
     link: 'https://darbari-v.github.io/northstar-customer-360/',
     source: 'https://github.com/Darbari-V/northstar-customer-360',
