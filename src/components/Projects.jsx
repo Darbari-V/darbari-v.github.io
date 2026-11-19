@@ -22,16 +22,15 @@ const featured = [
     {
     title: 'Customer 360 — CRM Transformation & Customer Data Integration',
     subtitle: 'Northstar Services · Independent BA case study · started October 2026',
-    status: 'In progress',
-    
-summary:
-  'An independent fictional IT Business Analysis case study addressing fragmented customer information, inconsistent enquiry follow-ups and reporting challenges. Seven published artefacts cover business problem analysis, stakeholder investigation planning, As-Is/To-Be process analysis, gap analysis, requirements engineering, logical customer data modelling, SQL investigations, data-quality assessment and reconciliation using synthetic records, proposed CRM solution design, and a scoped Salesforce MVP with three list views, a status-transition validation rule and development checks supported by six reviewed screenshots. Multi-user access testing, integrations, business-user acceptance testing and production deployment remain future work.',
+    status: 'MVP V1 verified in development',
+    summary:
+      'An independent Business Analysis case study for fictional Northstar Services. Eight artefacts trace enquiry ownership and customer-data requirements through process analysis, synthetic SQL checks and a working Salesforce Sales Enquiry demonstration. I tested three filtered views, representative assignment and the New-to-Contacted validation rule on six synthetic records. The case study includes the test results, screenshots and a walkthrough. Customer linking remains deferred, and separate-account permissions remain unverified.',
     stages: [
       { name: 'Discovery & process foundation', state: 'done' },
       { name: 'Requirements engineering', state: 'done' },      
 { name: 'Customer data & SQL', state: 'done' },
 { name: 'CRM solution design', state: 'done' },
-{ name: 'Salesforce MVP & development checks', state: 'done' },
+{ name: 'MVP V1 build & verification', state: 'done' },
 { name: 'Multi-user testing & integrations', state: 'planned' },
     ],
     tools: [
