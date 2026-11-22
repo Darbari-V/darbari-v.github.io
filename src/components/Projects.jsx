@@ -15,7 +15,7 @@ const featured = [
       { name: 'Specification', state: 'current' },
       { name: 'Build and test', state: 'planned' },
     ],
-    tools: ['PESTLE', 'SWOT', 'Stakeholder Wheel', 'Power/Interest Grid', 'RACI Chart', 'CARDI Log', 'Swimlane Diagram', 'As-Is Process Analysis', 'To-Be Process Design', 'POPIT Gap Analysis', 'Feasibility Assessment', 'Payback and NPV', 'Document Analysis', 'Requirements Catalogue', 'MoSCoW Prioritisation', 'User Stories & Acceptance Criteria'],
+    tools: ['PESTLE', 'SWOT', 'Stakeholder Wheel', 'Power/Interest Grid', 'RACI Chart', 'CARDI Log', 'Swimlane Diagram', 'As-Is Process Analysis', 'To-Be Process Design', 'POPIT Gap Analysis', 'Feasibility Assessment', 'Payback and NPV', 'Document Analysis', 'Requirements Catalogue', 'MoSCoW Prioritisation', 'User Stories & Acceptance Criteria', 'Scrum', 'Product Backlog & Epics', 'Sprint Planning', 'Definition of Done'],
     link: 'https://darbari-v.github.io/crm-migration-case-study/',
     source: 'https://github.com/Darbari-V/crm-migration-case-study',
   },
