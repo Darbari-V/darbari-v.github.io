@@ -24,13 +24,14 @@ const featured = [
     subtitle: 'Northstar Services · Independent BA case study · started October 2026',
     status: 'MVP V1 verified in development',
     summary:
-      'An independent Business Analysis case study for fictional Northstar Services. Eight artefacts trace enquiry ownership and customer-data requirements through process analysis, synthetic SQL checks and a working Salesforce Sales Enquiry demonstration. I tested three filtered views, representative assignment and the New-to-Contacted validation rule on six synthetic records. The case study includes the test results, screenshots and a walkthrough. Customer linking remains deferred, and separate-account permissions remain unverified.',
+      'An independent Business Analysis case study for fictional Northstar Services. Nine artefacts trace enquiry ownership and customer-data requirements through process analysis, synthetic SQL checks and a working Salesforce Sales Enquiry demonstration. I tested three filtered views, representative assignment and the New-to-Contacted rule on six synthetic records. I also mapped website enquiry fields and ran two Postman mock checks covering a complete enquiry and a missing email. The case study includes results, screenshots and a walkthrough. Live integration, customer linking and separate-account permissions remain open.',
     stages: [
       { name: 'Discovery & process foundation', state: 'done' },
       { name: 'Requirements engineering', state: 'done' },      
 { name: 'Customer data & SQL', state: 'done' },
 { name: 'CRM solution design', state: 'done' },
 { name: 'MVP V1 build & verification', state: 'done' },
+{ name: 'Website enquiry mock checks', state: 'done' },
 { name: 'Multi-user testing & integrations', state: 'planned' },
     ],
     tools: [
@@ -60,6 +61,8 @@ const featured = [
 'Custom Objects & User Lookups',
 'List Views & Formula Fields',
 'Functional Verification & Regression Checks',
+'Postman Mock API Testing',
+'Website Intake Field Mapping',
     ],
     link: 'https://darbari-v.github.io/northstar-customer-360/',
     source: 'https://github.com/Darbari-V/northstar-customer-360',
