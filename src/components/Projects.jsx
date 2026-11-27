@@ -24,7 +24,7 @@ const featured = [
     subtitle: 'Northstar Services · Independent BA case study · started October 2026',
     status: 'MVP V1 verified in development',
     summary:
-      'An independent Business Analysis case study for fictional Northstar Services. Ten artefacts trace enquiry ownership and customer-data requirements through process analysis, synthetic SQL checks and a working Salesforce Sales Enquiry demonstration. I tested three filtered views, representative assignment and the New-to-Contacted rule on six synthetic records. I also mapped website enquiry fields and ran two Postman mock checks covering a complete enquiry and a missing email. I then designed the proposed Salesforce handoff, including what the website should show when a save succeeds or fails. The case study includes results, screenshots and a walkthrough. Live integration, customer linking and separate-account permissions remain open.',
+      'An independent Business Analysis case study for fictional Northstar Services. Eleven artefacts trace enquiry ownership and customer-data requirements through process analysis, synthetic SQL checks and a working Salesforce Sales Enquiry demonstration. I tested three filtered views, representative assignment and the New-to-Contacted rule on six synthetic records. I also mapped website enquiry fields and ran two Postman mock checks covering a complete enquiry and a missing email. I then designed the proposed Salesforce handoff, including what the website should show when a save succeeds or fails. I sent a fictional enquiry from Postman to Salesforce and verified all four saved values on ENQ-0007. The case study includes results, screenshots and a walkthrough. Live website integration, customer linking and separate-account permissions remain open.',
     stages: [
       { name: 'Discovery & process foundation', state: 'done' },
       { name: 'Requirements engineering', state: 'done' },      
@@ -33,6 +33,7 @@ const featured = [
 { name: 'MVP V1 build & verification', state: 'done' },
 { name: 'Website enquiry mock checks', state: 'done' },
 { name: 'Website-to-Salesforce design', state: 'done' },
+{ name: 'Salesforce API create verified', state: 'done' },
 { name: 'Multi-user testing & integrations', state: 'planned' },
     ],
     tools: [
